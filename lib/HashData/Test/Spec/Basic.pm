@@ -13,11 +13,11 @@ use Role::Tiny::With;
 with 'HashDataRole::Spec::Basic';
 
 my $hash = {
-    one   => "satu",
-    two   => "dua",
-    three => "tiga",
-    four  => "empat",
     five  => "lima",
+    four  => "empat",
+    one   => "satu",
+    three => "tiga",
+    two   => "dua",
 };
 my $keys = [sort keys %$hash];
 
@@ -55,7 +55,7 @@ sub reset_iterator {
 
 sub get_item_at_key {
     my ($self, $key) = @_;
-    die "Out of range" unless exists $hash->{$key};
+    die "No such key '$key'" unless exists $hash->{$key};
     $hash->{$key};
 }
 
