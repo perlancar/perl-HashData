@@ -89,8 +89,8 @@ entries (usually words) and values will be the entries' definitions. Examples:
  HashData::Dict::ID::KBBI
  HashData::Dict::EN::FOLDOC
 
-C<HashDataCollection-*> is name for distribution that contains several
-C<HashData> modules.
+C<HashDataBundle-*> is name for distribution that contains several C<HashData>
+modules.
 
 
 =head1 FAQ
