@@ -1,5 +1,7 @@
 package HashData;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
