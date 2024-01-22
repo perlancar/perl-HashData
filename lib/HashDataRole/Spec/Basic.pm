@@ -92,20 +92,20 @@ From L<Role::TinyCommons::Iterator::Resettable>.
 
 =head2 get_item_at_key
 
-From L<Role::TinyCommons::Iterator::GetItemByKey>.
+From L<Role::TinyCommons::Collection::GetItemByKey>.
 
 =head2 has_item_at_key
 
-From L<Role::TinyCommons::Iterator::GetItemByKey>.
+From L<Role::TinyCommons::Collection::GetItemByKey>.
 
 =head2 has_item_at_key
 
 Alias for L</has_item_at_key>, From
-L<Role::TinyCommons::Iterator::GetItemByKey>.
+L<Role::TinyCommons::Collection::GetItemByKey>.
 
 =head2 get_all_keys
 
-From L<Role::TinyCommons::Iterator::GetItemByKey>.
+From L<Role::TinyCommons::Collection::GetItemByKey>.
 
 
 =head1 PROVIDED METHODS
